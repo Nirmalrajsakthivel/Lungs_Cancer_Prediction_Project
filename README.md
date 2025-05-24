@@ -71,7 +71,14 @@ y = df["LUNG_CANCER"]
 # Train/Test split
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
-# Model training
+#Chart 
+
+![Screenshot 2025-04-01 224220](https://github.com/user-attachments/assets/04ff4e1b-4386-49b0-8ecb-5250ffe7db9f)
+
+![Screenshot 2025-04-01 224317](https://github.com/user-attachments/assets/1bff615f-9ea5-4e61-ae65-6bdc5bc920bf)
+
+![Screenshot 2025-04-01 225032](https://github.com/user-attachments/assets/229a8a2a-eff1-410e-bd9e-fa486c9ef63d)
+
 model = RandomForestClassifier()
 
 model.fit(X_train, y_train)
